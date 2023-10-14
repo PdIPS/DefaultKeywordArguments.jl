@@ -1,0 +1,13 @@
+name = "Default"
+uuid = "d739bc73-037a-4484-8212-e0e00e9ea6bf"
+authors = ["Dr Rafael Bailo"]
+version = "0.0.1-DEV"
+
+[compat]
+julia = "1.9"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
