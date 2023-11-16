@@ -1,5 +1,12 @@
 module Default
 
+"""
+```
+@default default_values my_function(x; a, b) = ...
+```
+
+This macro assigns the values in `default_values` as the default values for the keyword arguments `a` and `b`.   This is an example of Docstring. This function receives two
+"""
 macro default(values, method)
   check_is_function_expression(method)
   method_with_defaults = construct_method_with_defaults(values, method)
@@ -14,6 +21,14 @@ macro default(method)
   end)
 end
 
+"""
+```
+@config default_config my_function(x; a, b) = ...
+```
+
+This macro creates a function `my_function(config, x)` which will have access to the variables `a` and `b`.
+The values `a` and `b` will be those in `config`, if they are present, or else those in `default_config`.
+"""
 macro config(values, method)
   check_is_function_expression(method)
   method_with_config_and_defaults =
@@ -42,8 +57,9 @@ function check_is_function_expression(a)
   return nothing
 end
 
-is_function_expression(a) =
-  hasproperty(a, :head) && (a.head == :function || a.head == :(=))
+function is_function_expression(a)
+  return hasproperty(a, :head) && (a.head == :function || a.head == :(=))
+end
 
 function construct_method_with_defaults(values, method)
   call = method.args[1]
