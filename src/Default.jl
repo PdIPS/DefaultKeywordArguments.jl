@@ -23,7 +23,6 @@ macro config(values, method)
     $method_with_splat
     $method_with_config_and_defaults
   end)
-  return
 end
 
 macro config(method)
