@@ -1,13 +1,16 @@
 name = "Default"
 uuid = "d739bc73-037a-4484-8212-e0e00e9ea6bf"
 authors = ["Dr Rafael Bailo"]
-version = "0.0.1-DEV"
+version = "1.0.0"
 
 [compat]
 julia = "1.9"
 
 [extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+JuliaFormatter = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
+SafeTestsets = "1bc83da4-3b8d-516f-aca4-4fe02f6d838f"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
-test = ["Test"]
+test = ["Aqua", "JuliaFormatter", "SafeTestsets", "Test"]
