@@ -63,6 +63,6 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using Default
-            DocMeta.setdocmeta!(Default, :DocTestSetup, :(using Default); recursive=true)
-            doctest(Default)'
+            using DefaultKeywordArguments
+            DocMeta.setdocmeta!(DefaultKeywordArguments, :DocTestSetup, :(using DefaultKeywordArguments); recursive=true)
+            doctest(DefaultKeywordArguments)'

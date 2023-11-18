@@ -1,17 +1,17 @@
 ```@meta
-CurrentModule = Default
+CurrentModule = DefaultKeywordArguments
 ```
 
-# Default.jl
+# DefaultKeywordArguments.jl
 
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://PdIPS.github.io/Default.jl/stable/)
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://PdIPS.github.io/Default.jl/dev/)
-[![Build Status](https://github.com/PdIPS/Default.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/PdIPS/Default.jl/actions/workflows/CI.yml?query=branch%3Amain)
-[![Coverage](https://codecov.io/gh/PdIPS/Default.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/PdIPS/Default.jl)
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://PdIPS.github.io/DefaultKeywordArguments.jl/stable/)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://PdIPS.github.io/DefaultKeywordArguments.jl/dev/)
+[![Build Status](https://github.com/PdIPS/DefaultKeywordArguments.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/PdIPS/DefaultKeywordArguments.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![Coverage](https://codecov.io/gh/PdIPS/DefaultKeywordArguments.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/PdIPS/DefaultKeywordArguments.jl)
 [![Aqua](https://raw.githubusercontent.com/JuliaTesting/Aqua.jl/master/badge.svg)](https://github.com/JuliaTesting/Aqua.jl)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Default.jl** is a package to handle *default keyword arguments* in Julia. It has been developed to support [CBX.jl](https://github.com/PdIPS/CBX.jl).
+**DefaultKeywordArguments.jl** is a package to handle *default keyword arguments* in Julia. It has been developed to support [CBX.jl](https://github.com/PdIPS/CBX.jl).
 
 ## The `@default` Macro
 
@@ -130,5 +130,5 @@ Once again, you are allowed to have extra arguments, type annotations, or defaul
 ```
 
 ```@autodocs
-Modules = [Default]
+Modules = [DefaultKeywordArguments]
 ```

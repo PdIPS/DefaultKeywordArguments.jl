@@ -1,6 +1,6 @@
 using Test, SafeTestsets
 
-@testset "Default.jl" begin
+@testset "DefaultKeywordArguments.jl" begin
   for test ∈ ["@config", "@default", "aqua", "format"]
     @eval begin
       @safetestset $test begin

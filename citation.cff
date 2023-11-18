@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-title: 'Default.jl'
+title: 'DefaultKeywordArguments.jl'
 message: 'If you use this software, please cite it as below.'
 authors:
   - family-names: 'Bailo'
     given-names: 'Rafael'
     orcid: 'https://orcid.org/0000-0001-8018-3799'
 type: software
-version: 1.0.0
-url: 'https://github.com/PdIPS/Default.jl'
+version: 1.1.0
+url: 'https://github.com/PdIPS/DefaultKeywordArguments.jl'

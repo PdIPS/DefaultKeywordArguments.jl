@@ -1,4 +1,4 @@
-using Default, JuliaFormatter, Test
+using DefaultKeywordArguments, JuliaFormatter, Test
 
 function tests()
   function f(s)

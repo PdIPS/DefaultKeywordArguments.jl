@@ -1,4 +1,4 @@
-using Default, Test
+using DefaultKeywordArguments, Test
 
 const default_values = (; a = 1, b = 1.0, c = 1 // 1)
 
