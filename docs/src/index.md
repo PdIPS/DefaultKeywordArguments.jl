@@ -132,8 +132,7 @@ Once again, you are allowed to have extra arguments, type annotations, or defaul
 Modules = [DefaultKeywordArguments]
 ```
 
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://PdIPS.github.io/DefaultKeywordArguments.jl/stable/)
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://PdIPS.github.io/DefaultKeywordArguments.jl/dev/)
+[![Static Badge](https://img.shields.io/badge/View%20on%20Github-grey?logo=github)](https://github.com/PdIPS/DefaultKeywordArguments.jl)
 [![Build Status](https://github.com/PdIPS/DefaultKeywordArguments.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/PdIPS/DefaultKeywordArguments.jl/actions/workflows/CI.yml?query=branch%3Amain)
 [![Coverage](https://codecov.io/gh/PdIPS/DefaultKeywordArguments.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/PdIPS/DefaultKeywordArguments.jl)
 [![Aqua](https://raw.githubusercontent.com/JuliaTesting/Aqua.jl/master/badge.svg)](https://github.com/JuliaTesting/Aqua.jl)
