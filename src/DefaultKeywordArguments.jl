@@ -5,7 +5,7 @@ module DefaultKeywordArguments
 @default default_values my_function(x; a, b) = ...
 ```
 
-This macro assigns the values in `default_values` as the default values for the keyword arguments `a` and `b`.   This is an example of Docstring. This function receives two
+This macro assigns the values in `default_values` as the default values for the keyword arguments `a` and `b`.
 """
 macro default(values, method)
   check_is_function_expression(method)
@@ -139,5 +139,23 @@ strip_arg(arg::Symbol) = arg
 strip_arg(arg::Expr) = strip_arg(arg.args[1])
 
 export @default, @config
+
+const FORMAT_SETTINGS = (;
+  always_for_in = true,
+  always_use_return = true,
+  conditional_to_if = true,
+  for_in_replacement = "∈",
+  format_docstrings = true,
+  indent = 2,
+  indent_submodule = true,
+  long_to_short_function_def = true,
+  margin = 80,
+  normalize_line_endings = "unix",
+  remove_extra_newlines = true,
+  short_to_long_function_def = true,
+  whitespace_in_kwargs = true,
+  whitespace_ops_in_indices = true,
+  whitespace_typedefs = true,
+)
 
 end

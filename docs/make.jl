@@ -20,6 +20,7 @@ makedocs(;
     canonical = "https://PdIPS.github.io/DefaultKeywordArguments.jl",
     edit_link = "main",
     assets = String[],
+    footer = "Copyright © 2023 [Dr Rafael Bailo](https://rafaelbailo.com/). [MIT License](https://github.com/PdIPS/DefaultKeywordArguments.jl/blob/main/LICENSE).",
   ),
   pages = ["Home" => "index.md"],
 )
